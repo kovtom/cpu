@@ -1,0 +1,45 @@
+Flags: (8 bit)
+
+Bit0	-	Carry
+Bit1	-	Sign
+Bit2	-	Zero
+Bit3	-	Greater (A > B)
+Bit4	-	Equal	(A = B)
+Bit5	-	Less	(A < B)
+Bit6	-	0x0
+Bit7	-	0x0
+
+
+ALU Commands: (4 bit)
+
+0x00	-	ADD
+0x01	-	SUB
+0x02	-	NEGATE
+0x03	-	ROL
+0x04	-	ROR
+0x05	-	AND
+0x06	-	OR
+0x07	-	NOT (Not A)
+0x08	-	XOR
+0x09	-	COMP
+0x0a	-	INC
+0x0b	-	DEC
+
+
+
+0- 0000
+1- 0001
+2- 0010
+3- 0011
+4- 0100
+5- 0101
+6- 0110
+7- 0111
+8- 1000
+9- 1001
+a- 1010
+b- 1011
+c- 1100
+d- 1101
+e- 1110
+f- 1111
